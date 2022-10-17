@@ -1,0 +1,127 @@
+{
+    "key": "TC008a-unwornGarmentFlat",
+    "title": "TC008a-unwornGarmentFlat",
+    "order": 1,
+    "min_version": "0.1.0",
+    "minutes": 0,
+    "summary_graphs": [
+        "ecg",
+        "hr",
+        "hrv",
+        "breathing_depth",
+        "breathing_rate",
+        "relaxation"
+    ],
+    "author": "Oxa",
+    "journey": "journey_to_calmness",
+    "category": "guided",
+    "description": "For this test, you need \n- An Oxa Garment (shirt, band, bra)\n- A clothes hanger\n- start the exercise and follow the instructions on the screen",
+    "airscript_tag": [
+        "studies",
+        "beginner"
+    ],
+    "background": [],
+    "background2": [],
+    "background3": [],
+    "breathing_signal_ui": {
+        "window_size_seconds": 30
+    },
+    "hr_graph_ui": {
+        "window_size_seconds": 30
+    },
+    "breathing_rate_graph_ui": {
+        "window_size_seconds": 30
+    },
+    "hrv_graph_ui": {
+        "window_size_seconds": 30
+    },
+    "calmness_index_graph_ui": {
+        "window_size_seconds": 30
+    },
+    "soundscapes": [
+        {
+            "key": "HOPE_BACKGROUND_2.mp3",
+            "repetitions": 0,
+            "sound_level": 100,
+            "timeout": 0
+        }
+    ],
+    "breath_cycles": [
+        {
+            "natural": 15000,
+            "breathe_in": 0,
+            "hold_in": 0,
+            "breathe_out": 0,
+            "hold_out": 0,
+            "repetitions": 1,
+            "commands_text": {
+                "breathe_in": {
+                    "default": "Breathe IN"
+                },
+                "hold_in": {
+                    "default": "HOLD"
+                },
+                "breathe_out": {
+                    "default": "Breathe OUT"
+                },
+                "hold_out": {
+                    "default": "HOLD"
+                }
+            },
+            "background": [],
+            "background2": [],
+            "background3": [],
+            "voices": [],
+            "biofeedback_mode": "normal",
+            "title": {
+                "default": "Lay the garment unwrinkled, on a flat horizontal surface"
+            }
+        }
+    ],
+    "airscript_theme": "black",
+    "audio_experiences": {
+        "default_key": "test",
+        "user_selectable": false,
+        "elements": [
+            {
+                "key": "test",
+                "title": {
+                    "default": "test"
+                }
+            }
+        ]
+    },
+    "audio_biofeedbacks": [
+        {
+            "audio_biofeedback_set": {},
+            "audio_experience_key": "test"
+        }
+    ],
+    "default_soundscape_key": "HOPE_BACKGROUND_2.mp3",
+    "audio_breathing_guides_v2": [
+        {
+            "audio_breathing_guide_set": {
+                "key": "atonal_46",
+                "title": {
+                    "default": "Atonal 4|6"
+                },
+                "breathe_in": {
+                    "key": "audio_guide/atonal/ATONAL_4in.mp3",
+                    "sound_level": 75
+                },
+                "breathe_out": {
+                    "key": "audio_guide/atonal/ATONAL_6out.mp3",
+                    "sound_level": 75
+                },
+                "hold_in": {
+                    "sound_level": 75
+                },
+                "hold_out": {
+                    "sound_level": 75
+                }
+            },
+            "audio_experience_key": "test"
+        }
+    ],
+    "airscript_id": "c57f9e6c-cb3d-4dfa-bf7d-9714670bd5dd"
+}
