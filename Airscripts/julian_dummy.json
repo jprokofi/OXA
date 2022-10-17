@@ -1,0 +1,212 @@
+{
+    "key": "julian_dummy",
+    "title": "Julian Dummy",
+    "order": 1,
+    "min_version": "0.1.0",
+    "minutes": 0,
+    "summary_graphs": [
+        "ecg",
+        "hr",
+        "hrv",
+        "breathing_depth",
+        "breathing_rate",
+        "relaxation"
+    ],
+    "author": "Oxa",
+    "journey": "journey_to_calmness",
+    "category": "guided",
+    "description": "hey I'm just trying this out \ntest test",
+    "airscript_tag": [
+        "studies",
+        "beginner"
+    ],
+    "background": [],
+    "background2": [],
+    "background3": [],
+    "breathing_signal_ui": {
+        "window_size_seconds": 30
+    },
+    "hr_graph_ui": {
+        "window_size_seconds": 30
+    },
+    "breathing_rate_graph_ui": {
+        "window_size_seconds": 30
+    },
+    "hrv_graph_ui": {
+        "window_size_seconds": 30
+    },
+    "calmness_index_graph_ui": {
+        "window_size_seconds": 30
+    },
+    "soundscapes": [
+        {
+            "key": "HOPE_BACKGROUND_2.mp3",
+            "repetitions": 0,
+            "sound_level": 100,
+            "timeout": 0
+        }
+    ],
+    "breath_cycles": [
+        {
+            "natural": 3000,
+            "breathe_in": 0,
+            "hold_in": 0,
+            "breathe_out": 0,
+            "hold_out": 0,
+            "repetitions": 1,
+            "commands_text": {
+                "breathe_in": {
+                    "default": "Breathe IN"
+                },
+                "hold_in": {
+                    "default": "HOLD"
+                },
+                "breathe_out": {
+                    "default": "Breathe OUT"
+                },
+                "hold_out": {
+                    "default": "HOLD"
+                }
+            },
+            "background": [],
+            "background2": [],
+            "background3": [],
+            "voices": [],
+            "biofeedback_mode": "normal",
+            "title": {
+                "default": "Get ready for two guided breaths"
+            }
+        },
+        {
+            "natural": 0,
+            "breathe_in": 1000,
+            "hold_in": 0,
+            "breathe_out": 1000,
+            "hold_out": 0,
+            "repetitions": 10,
+            "commands_text": {
+                "natural": {
+                    "default": " "
+                },
+                "breathe_in": {
+                    "default": "Breathe IN"
+                },
+                "hold_in": {
+                    "default": "HOLD"
+                },
+                "breathe_out": {
+                    "default": "Breathe OUT"
+                },
+                "hold_out": {
+                    "default": "HOLD"
+                }
+            },
+            "background": [],
+            "background2": [],
+            "background3": [],
+            "voices": [],
+            "biofeedback_mode": "normal",
+            "merge_with_previous": true,
+            "audio_breathing_guides": [
+                {
+                    "audio_breathing_guide_set": {
+                        "key": "voice_guide",
+                        "title": {
+                            "default": "Voice"
+                        },
+                        "breathe_in": {
+                            "key": "audio_guide/voice_guide/03 - CO2 dive training.mp3",
+                            "sound_level": 90
+                        },
+                        "breathe_out": {
+                            "key": "audio_guide/voice_guide/04 - CO2 dive training.mp3",
+                            "sound_level": 90
+                        },
+                        "hold_in": {
+                            "sound_level": 90
+                        },
+                        "hold_out": {
+                            "key": "audio_guide/voice_guide/05 - CO2 dive training.mp3",
+                            "sound_level": 90
+                        }
+                    },
+                    "audio_experience_key": "test"
+                }
+            ]
+        },
+        {
+            "natural": 3000,
+            "breathe_in": 0,
+            "hold_in": 0,
+            "breathe_out": 0,
+            "hold_out": 0,
+            "repetitions": 1,
+            "commands_text": {
+                "breathe_in": {
+                    "default": "Breathe IN"
+                },
+                "hold_in": {
+                    "default": "HOLD"
+                },
+                "breathe_out": {
+                    "default": "Breathe OUT"
+                },
+                "hold_out": {
+                    "default": "HOLD"
+                }
+            },
+            "background": [],
+            "background2": [],
+            "background3": [],
+            "voices": [],
+            "biofeedback_mode": "normal",
+            "title": {
+                "default": "You hyperventilated successfully"
+            }
+        }
+    ],
+    "airscript_theme": "black",
+    "audio_experiences": {
+        "default_key": "test",
+        "user_selectable": false,
+        "elements": [
+            {
+                "key": "test",
+                "title": {
+                    "default": "test"
+                }
+            }
+        ]
+    },
+    "audio_biofeedbacks": [
+        {
+            "audio_biofeedback_set": {},
+            "audio_experience_key": "test"
+        }
+    ],
+    "default_soundscape_key": "HOPE_BACKGROUND_2.mp3",
+    "audio_breathing_guides_v2": [
+        {
+            "audio_breathing_guide_set": {
+                "key": "atonal_46",
+                "title": {
+                    "default": "Atonal 4|6"
+                },
+                "breathe_in": {
+                    "key": "audio_guide/atonal/ATONAL_4in.mp3",
+                    "sound_level": 75
+                },
+                "breathe_out": {
+                    "key": "audio_guide/atonal/ATONAL_6out.mp3",
+                    "sound_level": 75
+                },
+                "hold_in": {
+                    "sound_level": 75
+                },
+                "hold_out": {
+                    "sound_level": 75
+                }
+            },
+            "audio_experience_key": "test"
+        }
+    ]

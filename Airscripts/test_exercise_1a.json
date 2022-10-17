@@ -1,0 +1,454 @@
+{
+    "key": "test_exercise_1a",
+    "title": "Standard Test 1A",
+    "order": 1,
+    "min_version": "0.1.0",
+    "minutes": 0,
+    "summary_graphs": [
+        "ecg",
+        "hr",
+        "hrv",
+        "breathing_depth",
+        "breathing_rate",
+        "relaxation"
+    ],
+    "author": "Oxa",
+    "journey": "journey_to_calmness",
+    "category": "guided",
+    "description": "For this test, you need to \n- Wear the garment as normal\n- clip the sensor as normal and connect the sensor to the app\n- start the exercise and follow the instructions on the screen",
+    "airscript_tag": [
+        "studies",
+        "beginner"
+    ],
+    "background": [],
+    "background2": [],
+    "background3": [],
+    "breathing_signal_ui": {
+        "window_size_seconds": 30
+    },
+    "hr_graph_ui": {
+        "window_size_seconds": 30
+    },
+    "breathing_rate_graph_ui": {
+        "window_size_seconds": 30
+    },
+    "hrv_graph_ui": {
+        "window_size_seconds": 30
+    },
+    "calmness_index_graph_ui": {
+        "window_size_seconds": 30
+    },
+    "soundscapes": [
+        {
+            "key": "HOPE_BACKGROUND_2.mp3",
+            "repetitions": 0,
+            "sound_level": 100,
+            "timeout": 0
+        }
+    ],
+    "breath_cycles": [
+        {
+            "natural": 3000,
+            "breathe_in": 0,
+            "hold_in": 0,
+            "breathe_out": 0,
+            "hold_out": 0,
+            "repetitions": 1,
+            "commands_text": {
+                "breathe_in": {
+                    "default": "Breathe IN"
+                },
+                "hold_in": {
+                    "default": "HOLD"
+                },
+                "breathe_out": {
+                    "default": "Breathe OUT"
+                },
+                "hold_out": {
+                    "default": "HOLD"
+                }
+            },
+            "background": [],
+            "background2": [],
+            "background3": [],
+            "voices": [],
+            "biofeedback_mode": "normal",
+            "title": {
+                "default": "Get ready for two guided breaths"
+            }
+        },
+        {
+            "natural": 0,
+            "breathe_in": 4000,
+            "hold_in": 0,
+            "breathe_out": 6000,
+            "hold_out": 0,
+            "repetitions": 2,
+            "commands_text": {
+                "natural": {
+                    "default": " "
+                },
+                "breathe_in": {
+                    "default": "Breathe IN"
+                },
+                "hold_in": {
+                    "default": "HOLD"
+                },
+                "breathe_out": {
+                    "default": "Breathe OUT"
+                },
+                "hold_out": {
+                    "default": "HOLD"
+                }
+            },
+            "background": [],
+            "background2": [],
+            "background3": [],
+            "voices": [],
+            "biofeedback_mode": "normal",
+            "merge_with_previous": true,
+            "audio_breathing_guides": [
+                {
+                    "audio_breathing_guide_set": {
+                        "key": "voice_guide",
+                        "title": {
+                            "default": "Voice"
+                        },
+                        "breathe_in": {
+                            "key": "audio_guide/voice_guide/03 - CO2 dive training.mp3",
+                            "sound_level": 90
+                        },
+                        "breathe_out": {
+                            "key": "audio_guide/voice_guide/04 - CO2 dive training.mp3",
+                            "sound_level": 90
+                        },
+                        "hold_in": {
+                            "sound_level": 90
+                        },
+                        "hold_out": {
+                            "key": "audio_guide/voice_guide/05 - CO2 dive training.mp3",
+                            "sound_level": 90
+                        }
+                    },
+                    "audio_experience_key": "test"
+                }
+            ]
+        },
+        {
+            "natural": 3000,
+            "breathe_in": 0,
+            "hold_in": 0,
+            "breathe_out": 0,
+            "hold_out": 0,
+            "repetitions": 1,
+            "commands_text": {
+                "natural": {
+                    "default": " "
+                },
+                "breathe_in": {
+                    "default": "Breathe IN"
+                },
+                "hold_in": {
+                    "default": "HOLD"
+                },
+                "breathe_out": {
+                    "default": "Breathe OUT"
+                },
+                "hold_out": {
+                    "default": "HOLD"
+                }
+            },
+            "background": [],
+            "background2": [],
+            "background3": [],
+            "voices": [],
+            "biofeedback_mode": "normal",
+            "title": {
+                "default": "Get ready for an inhale followed by a breath hold"
+            }
+        },
+        {
+            "natural": 0,
+            "breathe_in": 4000,
+            "hold_in": 0,
+            "breathe_out": 0,
+            "hold_out": 20000,
+            "repetitions": 1,
+            "commands_text": {
+                "natural": {
+                    "default": " "
+                },
+                "breathe_in": {
+                    "default": "Breathe IN"
+                },
+                "hold_in": {
+                    "default": "HOLD"
+                },
+                "breathe_out": {
+                    "default": "Breathe OUT"
+                },
+                "hold_out": {
+                    "default": "HOLD"
+                }
+            },
+            "background": [],
+            "background2": [],
+            "background3": [],
+            "voices": [],
+            "biofeedback_mode": "hold_your_breath",
+            "merge_with_previous": true,
+            "audio_breathing_guides": [
+                {
+                    "audio_breathing_guide_set": {
+                        "key": "voice_guide",
+                        "title": {
+                            "default": "Voice"
+                        },
+                        "breathe_in": {
+                            "key": "audio_guide/voice_guide/03 - CO2 dive training.mp3",
+                            "sound_level": 90
+                        },
+                        "breathe_out": {
+                            "key": "audio_guide/voice_guide/04 - CO2 dive training.mp3",
+                            "sound_level": 90
+                        },
+                        "hold_in": {
+                            "sound_level": 90
+                        },
+                        "hold_out": {
+                            "key": "audio_guide/voice_guide/05 - CO2 dive training.mp3",
+                            "sound_level": 90
+                        }
+                    },
+                    "audio_experience_key": "test"
+                }
+            ]
+        },
+        {
+            "natural": 3000,
+            "breathe_in": 0,
+            "hold_in": 0,
+            "breathe_out": 0,
+            "hold_out": 0,
+            "repetitions": 1,
+            "commands_text": {
+                "breathe_in": {
+                    "default": "Inhale"
+                },
+                "hold_in": {
+                    "default": "HOLD"
+                },
+                "breathe_out": {
+                    "default": "Exhale"
+                },
+                "hold_out": {
+                    "default": "HOLD for as long as possible"
+                }
+            },
+            "background": [],
+            "background2": [],
+            "background3": [],
+            "voices": [],
+            "biofeedback_mode": "normal",
+            "hold_out_biofeedback": "hold_your_breath",
+            "title": {
+                "default": "Get ready for an inhale and exhale followed by a breath hold"
+            },
+            "hold_out_custom_end": {
+                "button_press": {
+                    "default_text": "I feel air hunger",
+                    "extra_time_millis": 100
+                }
+            }
+        },
+        {
+            "natural": 0,
+            "breathe_in": 4000,
+            "hold_in": 0,
+            "breathe_out": 4000,
+            "hold_out": 20000,
+            "repetitions": 1,
+            "commands_text": {
+                "natural": {
+                    "default": " "
+                },
+                "breathe_in": {
+                    "default": "Breathe IN"
+                },
+                "hold_in": {
+                    "default": "HOLD"
+                },
+                "breathe_out": {
+                    "default": "Breathe OUT"
+                },
+                "hold_out": {
+                    "default": "HOLD"
+                }
+            },
+            "background": [],
+            "background2": [],
+            "background3": [],
+            "voices": [],
+            "biofeedback_mode": "hold_your_breath",
+            "merge_with_previous": true,
+            "audio_breathing_guides": [
+                {
+                    "audio_breathing_guide_set": {
+                        "key": "voice_guide",
+                        "title": {
+                            "default": "Voice"
+                        },
+                        "breathe_in": {
+                            "key": "audio_guide/voice_guide/03 - CO2 dive training.mp3",
+                            "sound_level": 90
+                        },
+                        "breathe_out": {
+                            "key": "audio_guide/voice_guide/04 - CO2 dive training.mp3",
+                            "sound_level": 90
+                        },
+                        "hold_in": {
+                            "sound_level": 90
+                        },
+                        "hold_out": {
+                            "key": "audio_guide/voice_guide/05 - CO2 dive training.mp3",
+                            "sound_level": 90
+                        }
+                    },
+                    "audio_experience_key": "test"
+                }
+            ]
+        },
+        {
+            "natural": 3000,
+            "breathe_in": 0,
+            "hold_in": 0,
+            "breathe_out": 0,
+            "hold_out": 0,
+            "repetitions": 1,
+            "commands_text": {
+                "breathe_in": {
+                    "default": "Breathe IN"
+                },
+                "hold_in": {
+                    "default": "HOLD"
+                },
+                "breathe_out": {
+                    "default": "Breathe OUT"
+                },
+                "hold_out": {
+                    "default": "HOLD"
+                }
+            },
+            "background": [],
+            "background2": [],
+            "background3": [],
+            "voices": [],
+            "biofeedback_mode": "normal",
+            "title": {
+                "default": "Get ready for two guided breaths"
+            }
+        },
+        {
+            "natural": 0,
+            "breathe_in": 4000,
+            "hold_in": 0,
+            "breathe_out": 6000,
+            "hold_out": 0,
+            "repetitions": 2,
+            "commands_text": {
+                "natural": {
+                    "default": " "
+                },
+                "breathe_in": {
+                    "default": "Breathe IN"
+                },
+                "hold_in": {
+                    "default": "HOLD"
+                },
+                "breathe_out": {
+                    "default": "Breathe OUT"
+                },
+                "hold_out": {
+                    "default": "HOLD"
+                }
+            },
+            "background": [],
+            "background2": [],
+            "background3": [],
+            "voices": [],
+            "biofeedback_mode": "normal",
+            "merge_with_previous": true,
+            "audio_breathing_guides": [
+                {
+                    "audio_breathing_guide_set": {
+                        "key": "voice_guide",
+                        "title": {
+                            "default": "Voice"
+                        },
+                        "breathe_in": {
+                            "key": "audio_guide/voice_guide/03 - CO2 dive training.mp3",
+                            "sound_level": 90
+                        },
+                        "breathe_out": {
+                            "key": "audio_guide/voice_guide/04 - CO2 dive training.mp3",
+                            "sound_level": 90
+                        },
+                        "hold_in": {
+                            "sound_level": 90
+                        },
+                        "hold_out": {
+                            "key": "audio_guide/voice_guide/05 - CO2 dive training.mp3",
+                            "sound_level": 90
+                        }
+                    },
+                    "audio_experience_key": "test"
+                }
+            ]
+        }
+    ],
+    "airscript_theme": "black",
+    "audio_experiences": {
+        "default_key": "test",
+        "user_selectable": false,
+        "elements": [
+            {
+                "key": "test",
+                "title": {
+                    "default": "test"
+                }
+            }
+        ]
+    },
+    "audio_biofeedbacks": [
+        {
+            "audio_biofeedback_set": {},
+            "audio_experience_key": "test"
+        }
+    ],
+    "default_soundscape_key": "HOPE_BACKGROUND_2.mp3",
+    "audio_breathing_guides_v2": [
+        {
+            "audio_breathing_guide_set": {
+                "key": "atonal_46",
+                "title": {
+                    "default": "Atonal 4|6"
+                },
+                "breathe_in": {
+                    "key": "audio_guide/atonal/ATONAL_4in.mp3",
+                    "sound_level": 75
+                },
+                "breathe_out": {
+                    "key": "audio_guide/atonal/ATONAL_6out.mp3",
+                    "sound_level": 75
+                },
+                "hold_in": {
+                    "sound_level": 75
+                },
+                "hold_out": {
+                    "sound_level": 75
+                }
+            },
+            "audio_experience_key": "test"
+        }
+    ],
+ 
